@@ -3,7 +3,8 @@ from django.contrib import admin
 from .models import Todo
 
 class TodoAdmin(admin.ModelAdmin):
-    list_display = ('title', 'description', 'completed')
+    # columns shown for Todos list in admin page
+    list_display = ('id', 'title', 'description', 'completed')
 
 # Register your models here.
 
