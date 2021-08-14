@@ -16,3 +16,15 @@ django-admin startproject backend .
 python manage.py startapp todo
 
 ```
+
+## Run migrations
+
+```console
+python manage.py migrate
+```
+
+## Start up the server
+
+```console
+python manage.py runserver
+```
