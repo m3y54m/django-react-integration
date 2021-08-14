@@ -19,5 +19,5 @@ yarn start
 
 ```console
 yarn add bootstrap@4.6.0
-yarn add react-bootstrap@1.6.1
+yarn add reactstrap@8.9.0
 ```
