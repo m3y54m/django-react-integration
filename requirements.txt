@@ -1,0 +1,8 @@
+
+Django==3.2.5
+djangorestframework==3.12.4
+django-cors-headers==3.7.0
+python-dotenv
+whitenoise
+gunicorn
+django-heroku

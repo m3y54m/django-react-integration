@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Modal from "./components/Modal";
 import axios from "axios";
 
+// Fix Django's CSRF token verification conflict
+axios.defaults.xsrfCookieName = 'csrftoken'
+axios.defaults.xsrfHeaderName = 'X-CSRFToken'
+
 class App extends Component {
   constructor(props) {
     super(props);
