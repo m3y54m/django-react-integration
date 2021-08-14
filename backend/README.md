@@ -1,6 +1,6 @@
 # Django Backend
 
-Commands used since the start of projects:
+Commands used since the start of project:
 
 ## Initialize Django project
 

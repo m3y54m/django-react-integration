@@ -12,5 +12,6 @@ This project is built in a an environment with the following specifications:
 - Node.js 14.17.4
 - NPM 6.14.14
 - Create React App 4.0.3
+- Yarn 1.22.5
 
 
