@@ -35,3 +35,11 @@ python manage.py runserver
 python manage.py makemigrations todo
 python manage.py migrate todo
 ```
+
+## Create Superuser for Admin Interface
+
+```console
+python manage.py createsuperuser
+python manage.py runserver
+```
+Navigate to http://localhost:8000/admin in your web browser.
