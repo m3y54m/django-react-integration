@@ -10,3 +10,9 @@ django-admin startproject backend .
 
 ```
 
+## Start a new application called `todo`
+
+```console
+python manage.py startapp todo
+
+```
