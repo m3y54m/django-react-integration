@@ -15,3 +15,9 @@ npx create-react-app .
 yarn start
 ```
 
+### Install Bootstrap
+
+```console
+yarn add bootstrap@4.6.0
+yarn add react-bootstrap@1.6.1
+```
