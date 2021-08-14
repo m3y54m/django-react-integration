@@ -15,9 +15,17 @@ npx create-react-app .
 yarn start
 ```
 
-### Install Bootstrap
+## Install Bootstrap
 
 ```console
 yarn add bootstrap@4.6.0
 yarn add reactstrap@8.9.0
+```
+
+## Make API Requests
+
+To make requests to the API endpoints on the backend server, you will install a JavaScript library called 'axios'.
+
+```console
+yarn add axios@0.21.1
 ```
