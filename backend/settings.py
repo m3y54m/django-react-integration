@@ -153,9 +153,11 @@ STATIC_ROOT = Path(BASE_DIR).joinpath('staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000' # React server URL
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'http://localhost:3000' # React server URL
+# ]
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Configure Django App for Heroku.
 django_heroku.settings(locals())
