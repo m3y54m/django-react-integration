@@ -52,10 +52,12 @@ You can check whether this is successful by running `heroku config`.
 
 ### Configure Heroku config variables
 
+```console
 heroku config:set ALLOWED_HOSTS=APP_NAME.herokuapp.com
 heroku config:set ALLOWED_HOSTS=APP_NAME.herokuapp.com
 heroku config:set SECRET_KEY=DJANGO_SECRET_KEY
 heroku config:set WEB_CONCURRENCY=1
+```
 
 ### Modify Django and React files for Production
 
