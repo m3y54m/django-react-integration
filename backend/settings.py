@@ -24,9 +24,9 @@ import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-REPO_BASE_DIR = Path(BASE_DIR).resolve().parent
+REPO_BASE_DIR = Path(BASE_DIR)
 
-FRONTEND_BASE_DIR = Path(REPO_BASE_DIR).joinpath('frontend')
+FRONTEND_BASE_DIR = Path(REPO_BASE_DIR)
 
 dotenv_file = Path(REPO_BASE_DIR).joinpath(".env")
 if dotenv_file.is_file():

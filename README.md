@@ -57,17 +57,11 @@ heroku config:set ALLOWED_HOSTS=APP_NAME.herokuapp.com
 heroku config:set SECRET_KEY=DJANGO_SECRET_KEY
 heroku config:set WEB_CONCURRENCY=1
 
-### Import django-heroku inside settings.py
+### Modify Django and React files for Production
 
-In `settings.py`, include the following at the very bottom:
 
-```python
-# backend/settings.py
+### Commit and Push
 
-# Configure Django App for Heroku.
-import django_heroku
-django_heroku.settings(locals())
-```
 
 ```console
 git push heroku master

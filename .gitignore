@@ -5,3 +5,40 @@
 
 # pyhton-dotenv file
 .env
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Text backup files
+*.bak
+
+# Database
+*.sqlite3
+
+#Static Files
+staticfiles/
