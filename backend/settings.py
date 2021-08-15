@@ -42,9 +42,8 @@ SECRET_KEY = 'django-insecure-t2stfjqh9&2a0ym5hq(d9uikj_8xp_10msf@pgf=%2cglb13n_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
-ALLOWED_HOSTS = ['django-react-integration.herokuapp.com', '127.0.0.1:8000', 'localhost']
-
+# ALLOWED_HOSTS = ['django-react-integration.herokuapp.com', '127.0.0.1:8000', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
